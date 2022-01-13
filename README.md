@@ -53,7 +53,8 @@ nohup sh run.sh > run.txt 2>&1 &
 
 ## Updates
 
-- [01/09/2021] Our work is published on TKDD 2022. See https://dl.acm.org/doi/10.1145/3494568.
+- [01/13/2022] We have updated our arXiv version. See https://arxiv.org/abs/2107.05884.
+- [01/09/2022] Our work is published on TKDD 2022. See https://dl.acm.org/doi/10.1145/3494568.
 
 ## Citation
 
