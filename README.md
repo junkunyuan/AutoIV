@@ -61,15 +61,16 @@ nohup sh run.sh > run.txt 2>&1 &
 If you find our code or idea useful for your research, please consider citing our work.
 
 ```bib
-@article{yuan2022autoiv,
-author = {Yuan, Junkun and Wu, Anpeng and Kuang, Kun and Li, Bo and Wu, Runze and Wu, Fei and Lin, Lanfen},
-title = {Auto IV: Counterfactual Prediction via Automatic Instrumental Variable Decomposition},
-year = {2022},
-volume = {16},
-number = {4},
-issn = {1556-4681},
-doi = {10.1145/3494568},
-journal = {ACM Trans. Knowl. Discov. Data}
+@article{yuan2022auto,
+  title={Auto IV: Counterfactual Prediction via Automatic Instrumental Variable Decomposition},
+  author={Yuan, Junkun and Wu, Anpeng and Kuang, Kun and Li, Bo and Wu, Runze and Wu, Fei and Lin, Lanfen},
+  journal={ACM Transactions on Knowledge Discovery from Data (TKDD)},
+  volume={16},
+  number={4},
+  pages={1--20},
+  year={2022},
+  publisher={ACM New York, NY}
+}
 ```
 
 ## Contact
