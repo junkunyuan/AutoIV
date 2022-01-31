@@ -34,7 +34,7 @@ Device:
 * GPU with VRAM > 3GB (strictly).
 * Memory > 4GB.
 
-## Usage ***
+## Usage
 
 1. Configure ***run.sh*** file.
 2. Run the code with command:
@@ -47,9 +47,9 @@ nohup sh run.sh > run.txt 2>&1 &
 
 | Information                 | Path to check                                                                               | Note                                                                                                                                                                                                                                                                                                                                                                      |
 | --------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Generated synthetic data    | ***data/"dataset"/"dataset"-train_"data_num"/***                                            | x: treatment; y: structural response; ye: true outcome.                                                                                                                                                                                                                                                                                                             |
-| Generated IV representation | ***data/"dataset"/autoiv-"dataset"/autoiv-"dataset"-train_"data_num"-rep_"rep_dim"/data/*** | col 1: x treatment;<br />col2: x_pre treatment predicted by treatment network;<br />col 3: y true outcome;<br />col 4: y_pre outcome predicted by outcome network;<br />col 5~{4+"rep_dim"}: IV representation Z;<br />col {5+"rep_dim"}~{4+2*"rep_dim"}: confoudner representation C. |
-| Training details of AutoIV  | ***AutoIV-results/"dataset"-train_"data_num"-date/***                                       | The value of each loss and MSE error of training, validation, and test,<br />during training process.                                                                                                                                                                                                                                                                     |
+| Generated synthetic data    | ***data/`dataset`/`dataset`-train_`data_num`/***                                            | x: treatment; y: structural response; ye: true outcome.                                                                                                                                                                                                                                                                                                             |
+| Generated IV representation | ***data/`dataset`/autoiv-`dataset`/autoiv-`dataset`-train_`data_num`-rep_`rep_dim`/data/*** | col 1: x treatment;<br />col2: x_pre treatment predicted by treatment network;<br />col 3: y true outcome;<br />col 4: y_pre outcome predicted by outcome network;<br />col 5~{4+`rep_dim`}: IV representation Z;<br />col {5+`rep_dim`}~{4+2*`rep_dim`}: confoudner representation C. |
+| Training details of AutoIV  | ***AutoIV-results/`dataset`-train_`data_num`-date/***                                       | Trace of Loss and MSE error of training, validation, and test data during training.                                                                                                                                                                                                                                                                     |
 
 ## Updates
 
